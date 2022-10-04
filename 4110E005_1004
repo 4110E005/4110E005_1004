@@ -1,0 +1,134 @@
+## Python Operators 參考範例 (https://www.w3schools.com/python/python_operators.asp) 
+## Python Strings 參考範例 (https://www.w3schools.com/python/python_strings_slicing.asp)
+- Python - Slicing Strings
+- Python - Modify Strings
+- Python - String Concatenation
+- Python - Format - Strings
+- Python - Escape Characters
+- Python - String Methods
+- Python - String Exercises
+## Python Lists 參考範例 (https://www.w3schools.com/python/python_lists.asp)
+- Python - Access List Items
+- Python - Change List Items
+- Python - Add List Items
+- Python - Remove List Items
+- Python - Loop Lists
+- Python - List Comprehension
+- Python - Sort Lists
+- Python - Copy Lists
+- Python - Join Lists
+- Python - List Methods
+- Python List Exercises
+## Python Dictionaries 參考範例 (https://www.w3schools.com/python/python_dictionaries.asp)
+- Python - Access Dictionary Items
+- Python - Change Dictionary Items
+- Python - Add Dictionary Items
+- Python - Remove Dictionary Items
+- Python - Loop Dictionaries
+- Python - Copy Dictionaries
+- Python - Nested Dictionaries
+- Python Dictionary Methods
+- Python Dictionary Exercises
+
+```pthon
+x = 5
+
+x <<= 3
+
+print(x)
+```
+
+```pthon
+x = 5
+
+x **= 3
+
+print(x)
+```
+
+```pthon
+x = 10
+
+x /= 2
+
+print(x)
+```
+
+```pthon
+x = 5
+
+x &= 3
+
+print(x)
+```
+
+```pthon
+x = 2
+
+print(x > 1 and x < 3)
+```
+
+```pthon
+a = """This is 4110E005 speaking"""
+print(a)
+```
+
+```pthon
+a = '''123456789'''
+print(a)
+```
+
+```pthon
+b = "4110E005"
+print(b[4:9])
+```
+
+```pthon
+b = "0123456789"
+print(b[:10])
+```
+
+```pthon
+a = "abcdefg!"
+print(a.upper())
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
+
+```pthon
+
+```
