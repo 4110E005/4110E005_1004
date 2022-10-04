@@ -94,41 +94,88 @@ print(a.upper())
 ```
 
 ```pthon
+thislist = ["apple", "banana", "cherry"]
+print(thislist[0])
+```
+
+```pthon
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-3])
+```
+
+```pthon
+thislist = ["A", "B", "C", "D", "E", "F", "G"]
+print(thislist[4:7])
+```
+
+```pthon
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "B"
+
+print(thislist)
+```
+
+```pthon
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
 
 ```
 
 ```pthon
+thisdict =	{
+  "A": "apple",
+  "B": "banana",
+  "C": "Cherry"
+}
+x = thisdict["A"]
+print(x)
+```
+
+```pthon
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(thisdict[x])
+```
+
+```pthon
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+thisdict["year"] = 2022
+
+print(thisdict)
+```
+
+```pthon
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.pop("year")
+print(thisdict)
 
 ```
 
 ```pthon
-
-```
-
-```pthon
-
-```
-
-```pthon
-
-```
-
-```pthon
-
-```
-
-```pthon
-
-```
-
-```pthon
-
-```
-
-```pthon
-
-```
-
-```pthon
-
+thisdict = {
+  "brand": "Brandy",
+  "model": "whisky",
+  "year": 2202
+}
+mydict = thisdict.copy()
+print(mydict)
 ```
